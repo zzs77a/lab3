@@ -1,0 +1,111 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Yishuai Zhang
+   Date:   2024.9.12
+   
+   Filename: lake_styles.css
+
+*/
+
+/*body*/
+body {
+  background-color: #fff; 
+    margin: 0 auto;
+    padding: 0;
+  border-left: 20px solid #819668fe; 
+  border-right: 20px solid #819668fe;
+  
+}
+
+/*font*/
+.font1{
+  font-family: "cac";
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.font2{
+  font-family: "dokbin";
+}
+
+@font-face {
+  font-family: "cac";
+  src: url(cac_champagne.ttf);
+  src: url(cac_champagne.woff);
+}
+@font-face {
+  font-family: "dokbin";
+  src: url(DobkinPlain.ttf);
+  src: url(DobkinPlain.woff);
+}
+
+
+/*header*/
+header a{
+  color: white;
+  text-decoration: none;
+}
+header {
+  background-color:  rgba(128, 0, 128, 0.5);
+}
+header nav{
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+
+/*leftcol*/
+section#leftcol{
+  color: white !important;
+  background-color: black;
+}
+
+.first-aside{
+background-color: rgba(255, 0, 111, 0.733)
+}
+.last-aside{
+  font-size: 13px;
+
+   background-color: rgba(255, 251, 0, 0.699)
+  
+  }
+
+
+
+/*rightcol*/
+
+section#rightcol {
+    background-color: purple;
+  }
+
+#rightcol nav a{
+  color: white;
+  text-decoration: none;
+}
+#rightcol nav ul{
+  list-style-type: none;
+  padding-left: 1em;
+}
+#rightcol nav h2{
+  font-family: "cac";
+  font-size: 30px;
+  font-weight: 50;
+}
+
+#rightcol blockquote{
+  color: rgba(255, 255, 255, 0.644);
+}
+
+
+
+
+
+.footer {
+  color: white;
+  background-color: rgb(91, 90, 90);
+}
